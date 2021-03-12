@@ -1,0 +1,98 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+int _2j;
+int** _2ll;
+int _2main;
+int _2i;
+int _2k;
+char* _2b;
+int** _2c;
+float* _2m;
+int* _2a;
+int*** _2e;
+int* _2l;
+int* TEMP0_201;
+float* TEMP1_301;
+int** TEMP3_202;
+int* TEMP2_201;
+int*** TEMP4_203;
+int* TEMP5_201;
+int*** TEMP7_203;
+int** TEMP6_202;
+int*** TEMP8_203;
+LABEL0:
+_2k=0;
+LABEL1:
+TEMP0_201 = &_2k;
+LABEL2:
+TEMP1_301 = (float*)TEMP0_201;
+LABEL3:
+_2m=TEMP1_301;
+LABEL4:
+TEMP2_201 = &_2k;
+LABEL5:
+_2a=TEMP2_201;
+LABEL6:
+TEMP3_202 = &_2a;
+LABEL7:
+_2c=TEMP3_202;
+LABEL8:
+TEMP4_203 = &_2c;
+LABEL9:
+_2e=TEMP4_203;
+LABEL10:
+_2i=2;
+LABEL11:
+_2j=1;
+LABEL12:
+TEMP5_201 = &_2i;
+LABEL13:
+_2l=TEMP5_201;
+LABEL14:
+TEMP6_202 = &_2l;
+LABEL15:
+_2ll=TEMP6_202;
+LABEL16:
+*_2e = *_2e;
+LABEL17:
+**_2e = **_2e;
+LABEL18:
+***_2e = ***_2e;
+LABEL19:
+***_2e=1;
+LABEL20:
+*_2l = *_2l;
+LABEL21:
+*_2l=3;
+LABEL22:
+TEMP7_203 = &_2ll;
+LABEL23:
+*TEMP7_203 = *TEMP7_203;
+LABEL24:
+**TEMP7_203 = **TEMP7_203;
+LABEL25:
+***TEMP7_203 = ***TEMP7_203;
+LABEL26:
+cout<<***TEMP7_203<<endl;
+LABEL27:
+*_2l = *_2l;
+LABEL28:
+cout<<*_2l<<endl;
+LABEL29:
+*_2l = *_2l;
+LABEL30:
+cin>>*_2l;
+LABEL31:
+TEMP8_203 = &_2ll;
+LABEL32:
+*TEMP8_203 = *TEMP8_203;
+LABEL33:
+**TEMP8_203 = **TEMP8_203;
+LABEL34:
+***TEMP8_203 = ***TEMP8_203;
+LABEL35:
+cout<<***TEMP8_203<<endl;
+LABEL36: ;
+}

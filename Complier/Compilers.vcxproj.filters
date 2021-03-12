@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\driver">
+      <UniqueIdentifier>{5d53cac1-65ac-48bf-9b3d-3f814aed64b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\driver\gen">
+      <UniqueIdentifier>{2d7c5ace-990a-4cb1-99d0-f2ba84885590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\driver">
+      <UniqueIdentifier>{b3bac070-0f6a-446b-9493-ca0bdce0d93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\driver\gen">
+      <UniqueIdentifier>{c05a0ec7-63d5-4670-84e2-b4ce8d85169b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\test_code">
+      <UniqueIdentifier>{7ee5199a-17c8-4e45-8ca0-05b826340b40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>源文件\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="lexer.flex.cpp">
+      <Filter>源文件\driver\gen</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.tab.cpp">
+      <Filter>源文件\driver\gen</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Qualdruple.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="signary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lexer_after.h">
+      <Filter>源文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="lexer_before.h">
+      <Filter>源文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="parser_after.h">
+      <Filter>源文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="parser_before.h">
+      <Filter>源文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>头文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="scanner.h">
+      <Filter>头文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="lexer.flex.h">
+      <Filter>头文件\driver\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.tab.h">
+      <Filter>头文件\driver\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="location.hh">
+      <Filter>头文件\driver\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="position.hh">
+      <Filter>头文件\driver\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.hh">
+      <Filter>头文件\driver\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="FlexLexer.h">
+      <Filter>头文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chainNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="symbol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ASTNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tempTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Qualdruple.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="signary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test_code.ourcpp">
+      <Filter>资源文件\test_code</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="output.decl">
+      <Filter>资源文件\test_code</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Flex Include="lexer.l">
+      <Filter>源文件\driver</Filter>
+    </Flex>
+  </ItemGroup>
+  <ItemGroup>
+    <Bison Include="parser.y">
+      <Filter>源文件\driver</Filter>
+    </Bison>
+  </ItemGroup>
+</Project>
